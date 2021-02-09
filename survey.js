@@ -6,9 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout
 });
 
-const questions = [];
 const profile = {};
-
 
 rl.question('What\'s your name? Nicknames are also acceptable :) ', (answer) => {
   // TODO: Save each answer in the profile as a property to structure the profile
